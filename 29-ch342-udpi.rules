@@ -1,0 +1,5 @@
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb", DRIVERS=="cdc_acm", ATTRS{bInterfaceNumber}!="02" GOTO="skip"
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d2", SYMLINK+="ttyUPDI"
+LABEL="skip"
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86",ATTRS{idProduct}=="55d2", MODE="0666"
+

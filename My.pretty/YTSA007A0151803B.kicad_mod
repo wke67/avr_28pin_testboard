@@ -1,0 +1,142 @@
+(footprint "YTSA007A0151803B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW2"
+		(at 0 2.32 180)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "821f237b-c5de-467c-ba75-5ac91183c340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "YTSA007A0151803B"
+		(at 0 2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94b9f450-99dd-45bd-b725-e61ce85e5a9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4be86e5d-f9e3-432d-9ff7-62abad1d9f6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "760dc60b-0a4d-4635-940e-55dc8f87ee34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.675 -1.675)
+		(end 1.675 1.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "85b242f5-849a-4539-b91a-e4741c1ba53e")
+	)
+	(fp_rect
+		(start -1.675 -1.675)
+		(end 1.675 1.675)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "dd76df39-427f-4eca-b81b-458954b17535")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "29c409e9-03a8-4da4-8f87-4ebc6b276d80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 -1.625)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "01641707-9483-4f5f-83e1-8c5cd74344f0")
+	)
+	(pad "" smd rect
+		(at 0 1.625)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "37eea24e-4a19-428b-a36a-62d33777a82e")
+	)
+	(pad "1" smd rect
+		(at -1.95 -1)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "044ee60c-f363-4c8b-aa82-8f2aa506d240")
+	)
+	(pad "1" smd rect
+		(at 1.95 -1)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "c767b19e-aaf2-47c4-9cea-426dd94e5721")
+	)
+	(pad "2" smd rect
+		(at -1.95 1)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "c70dfcb6-d3c2-412a-aac9-499c3a8c9946")
+	)
+	(pad "2" smd rect
+		(at 1.95 1)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(uuid "d17ecf35-5993-48b4-bbd1-f4658a83cabc")
+	)
+	(embedded_fonts no)
+	(model "${TAVU_KICAD_LIB}/e-radionica.com footprinti.3dshapes/Pushbutton_YTSA007A0151803B.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
