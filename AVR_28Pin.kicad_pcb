@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "AVR 28-PinTest Board")
-		(date "2026-10-29")
-		(rev "0.9")
+		(date "2026-11-13")
+		(rev "1.0")
 		(comment 4 "wke67")
 	)
 	(layers
@@ -4101,6 +4101,32 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2905490"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2273cfd8-54c3-4883-a7b6-c65a8a08ac76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c3d575c-37a3-4e5d-8ceb-f4530614da9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4555f698-c82a-4426-ae33-132ac3f509bc")
 		(sheetname "/")
@@ -7505,6 +7531,32 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C225521"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00cdfdc4-3382-4301-9171-abe58b6c9fe8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7653c6a1-fc7d-49f0-824c-9e5c810fabcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/f6318368-dcad-4bd8-8eee-14a16117f711")
 		(sheetname "/")
@@ -10000,6 +10052,19 @@
 				)
 			)
 		)
+		(property "Remark" "28pin ZIF socket 300/400mil, e.g. Adafruit"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c5087f6-6fb7-4ab2-adac-02c1127c35ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/8bd3351a-8e17-47b1-a2c4-c22d8903d22c")
 		(sheetname "/")
@@ -10727,6 +10792,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2905490"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c08c7f7-241e-4478-b178-dd71b1dceb8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "324e70d0-aa40-4905-9512-15f9bf69ff02")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

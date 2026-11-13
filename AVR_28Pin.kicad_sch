@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AVR 28-Pin Test Board")
-		(date "2026-10-29")
-		(rev "0.9")
+		(date "2026-11-13")
+		(rev "1.0")
 		(comment 4 "wke67")
 	)
 	(lib_symbols
@@ -10778,6 +10778,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2905490"
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "85a9d989-f8bb-4551-bc1d-52bfdd00d5a8")
 		)
@@ -11034,6 +11052,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2905490"
+			(at 247.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 247.65 73.66 0)
 			(effects
 				(font
@@ -12036,6 +12072,15 @@
 			)
 		)
 		(property "Description" "24MHz, 32kB Flash, 4kB SRAM, EEPROM with Touch Sensing, SPDIP-28"
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remark" "28pin ZIF socket 300/400mil, e.g. Adafruit"
 			(at 127 143.51 0)
 			(effects
 				(font
@@ -14254,6 +14299,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C225521"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 185.42 43.18 0)
 			(effects
 				(font
